@@ -1,0 +1,175 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "menu" [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]: menu
+        - generic [ref=e9]: RECO CMS
+        - 'textbox "Enter Exact Claim #" [ref=e10]'
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic:
+            - textbox
+          - generic [ref=e13]: Most Recent Claims
+          - generic [ref=e15]: arrow_drop_down
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e19] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e22]: keyboard_arrow_down
+    - generic [ref=e24]:
+      - heading "Users" [level=1] [ref=e25]
+      - generic [ref=e27]:
+        - button "add_circle_outline Add" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: add_circle_outline
+            - generic [ref=e31]: Add
+        - table [ref=e34]:
+          - rowgroup [ref=e43]:
+            - row "Name sort filter_alt Email sort filter_alt Role sort filter_alt Status sort filter_alt Email Verified sort filter_alt Account Enabled sort filter_alt" [ref=e44]:
+              - columnheader "Name sort filter_alt" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - generic "Name" [ref=e47]:
+                    - generic [ref=e48]: Name
+                    - generic [ref=e49]: sort
+                  - generic [ref=e50]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "Email sort filter_alt" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]:
+                  - generic "Email" [ref=e53]:
+                    - generic [ref=e54]: Email
+                    - generic [ref=e55]: sort
+                  - generic [ref=e56]: filter_alt
+              - columnheader "Role sort filter_alt" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - generic "Role" [ref=e59]:
+                    - generic [ref=e60]: Role
+                    - generic [ref=e61]: sort
+                  - generic [ref=e62]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "Status sort filter_alt" [ref=e63] [cursor=pointer]:
+                - generic [ref=e64]:
+                  - generic "Status" [ref=e65]:
+                    - generic [ref=e66]: Status
+                    - generic [ref=e67]: sort
+                  - generic [ref=e68]: filter_alt
+                  - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+              - columnheader "Email Verified sort filter_alt" [ref=e69] [cursor=pointer]:
+                - generic [ref=e70]:
+                  - generic "Email Verified" [ref=e71]:
+                    - generic [ref=e72]: Email Verified
+                    - generic [ref=e73]: sort
+                  - generic [ref=e74]: filter_alt
+                  - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+              - columnheader "Account Enabled sort filter_alt" [ref=e75] [cursor=pointer]:
+                - generic [ref=e76]:
+                  - generic "Account Enabled" [ref=e77]:
+                    - generic [ref=e78]: Account Enabled
+                    - generic [ref=e79]: sort
+                  - generic [ref=e80]: filter_alt
+                  - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+              - columnheader [ref=e81]
+          - rowgroup [ref=e83]:
+            - row "Testcase2972@test.com Auditor Inactive cancel cancel close" [ref=e84]:
+              - cell [ref=e85]
+              - cell "Testcase2972@test.com" [ref=e86]:
+                - generic "Testcase2972@test.com" [ref=e87]
+              - cell "Auditor" [ref=e88]:
+                - generic "Auditor" [ref=e89]
+              - cell "Inactive" [ref=e90]:
+                - generic [ref=e92]: Inactive
+              - cell "cancel" [ref=e93]:
+                - generic [ref=e95]: cancel
+              - cell "cancel" [ref=e96]:
+                - generic [ref=e98]: cancel
+              - cell "close" [ref=e99]:
+                - button "close" [ref=e101] [cursor=pointer]:
+                  - generic [ref=e103]: close
+    - list [ref=e105]:
+      - listitem [ref=e106]:
+        - link "Claims" [ref=e108] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e109]: Claims
+      - listitem [ref=e110]:
+        - link "Upload Invoice" [ref=e112] [cursor=pointer]:
+          - /url: upload-invoice
+          - generic [ref=e113]: Upload Invoice
+      - listitem [ref=e114]:
+        - link "Service Provider" [ref=e116] [cursor=pointer]:
+          - /url: /service-providers
+          - generic [ref=e117]: Service Provider
+      - listitem [ref=e118]:
+        - link "Brokerage" [ref=e120] [cursor=pointer]:
+          - /url: brokerage
+          - generic [ref=e121]: Brokerage
+      - listitem [ref=e122]:
+        - generic [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]: Reports
+          - generic [ref=e126]: keyboard_arrow_down
+      - listitem [ref=e127]:
+        - link "Claimant Solicitor" [ref=e129] [cursor=pointer]:
+          - /url: claimant-solicitor
+          - generic [ref=e130]: Claimant Solicitor
+      - listitem [ref=e131]:
+        - generic [ref=e133] [cursor=pointer]:
+          - generic [ref=e134]: My Profile
+          - generic [ref=e135]: keyboard_arrow_down
+      - listitem [ref=e136]:
+        - generic [ref=e138] [cursor=pointer]:
+          - generic [ref=e139]: Administrator
+          - generic [ref=e140]: keyboard_arrow_down
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - link "Application Logs" [ref=e144] [cursor=pointer]:
+              - /url: application-logs
+              - generic [ref=e145]: Application Logs
+          - listitem [ref=e146]:
+            - link "Audit Trail" [ref=e148] [cursor=pointer]:
+              - /url: audit-trail
+              - generic [ref=e149]: Audit Trail
+          - listitem [ref=e150]:
+            - link "Auto Reserves" [ref=e152] [cursor=pointer]:
+              - /url: auto-reservings
+              - generic [ref=e153]: Auto Reserves
+          - listitem [ref=e154]:
+            - link "Diary Templates" [ref=e156] [cursor=pointer]:
+              - /url: diary-templates
+              - generic [ref=e157]: Diary Templates
+          - listitem [ref=e158]:
+            - link "General Settings" [ref=e160] [cursor=pointer]:
+              - /url: general-setting
+              - generic [ref=e161]: General Settings
+          - listitem [ref=e162]:
+            - link "Parameters" [ref=e164] [cursor=pointer]:
+              - /url: param-type
+              - generic [ref=e165]: Parameters
+          - listitem [ref=e166]:
+            - link "Report Issues" [ref=e168] [cursor=pointer]:
+              - /url: issue-reporting
+              - generic [ref=e169]: Report Issues
+          - listitem [ref=e170]:
+            - link "Roles" [ref=e172] [cursor=pointer]:
+              - /url: application-roles
+              - generic [ref=e173]: Roles
+          - listitem [ref=e174]:
+            - link "System Notices" [ref=e176] [cursor=pointer]:
+              - /url: system-notices
+              - generic [ref=e177]: System Notices
+          - listitem [ref=e178]:
+            - link "Transaction Approval Limits" [ref=e180] [cursor=pointer]:
+              - /url: transaction-approval-limits
+              - generic [ref=e181]: Transaction Approval Limits
+          - listitem [ref=e182]:
+            - link "Users" [ref=e184] [cursor=pointer]:
+              - /url: application-users
+              - generic [ref=e185]: Users
+      - listitem [ref=e186]:
+        - link "Registrants" [ref=e188] [cursor=pointer]:
+          - /url: registrants/false
+          - generic [ref=e189]: Registrants
+    - generic [ref=e191]: Reco CMS , Copyright Ⓒ 2025
+  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+```

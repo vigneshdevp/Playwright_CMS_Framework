@@ -43,6 +43,14 @@ test.describe("User page validation", ()=>{
                
        })
 
+        test("Add and edit user_password)", async()=>{
+                
+                await Userpage.navigateviacommon("Administrator", "Users")
+                await Userpage.addUser()
+                await Userpage.editUser_password()
+               
+       })
+
 
 
 

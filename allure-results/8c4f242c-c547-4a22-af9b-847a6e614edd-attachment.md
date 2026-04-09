@@ -1,0 +1,243 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - button "menu" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: menu
+      - generic [ref=e9]: RECO CMS
+      - 'textbox "Enter Exact Claim #" [ref=e10]'
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - textbox
+        - generic [ref=e13]: Most Recent Claims
+        - generic [ref=e15]: arrow_drop_down
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - generic [ref=e19] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e22]: keyboard_arrow_down
+  - generic [ref=e23]:
+    - progressbar [ref=e25]:
+      - img [ref=e26]
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - textbox "Search" [ref=e32]
+          - generic [ref=e33]:
+            - generic:
+              - checkbox
+          - generic [ref=e35]: Auto
+        - generic [ref=e37]:
+          - generic:
+            - textbox "0"
+          - generic [ref=e38]: Status Filter
+          - generic [ref=e40]: arrow_drop_down
+          - text: search
+          - generic [ref=e41]: close
+        - generic [ref=e43]:
+          - generic:
+            - textbox "19"
+          - generic [ref=e44]: Errors And Omissions
+          - generic [ref=e46]: arrow_drop_down
+          - generic [ref=e47]: close
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic:
+              - checkbox
+          - generic [ref=e54]: Coverage Issue
+        - generic [ref=e56]:
+          - generic:
+            - textbox
+          - generic [ref=e57]: Claim Or Incident
+          - generic [ref=e59]: arrow_drop_down
+        - generic [ref=e61]:
+          - generic:
+            - textbox "25"
+          - generic [ref=e62]: "25"
+          - generic [ref=e64]: arrow_drop_down
+      - generic [ref=e65]:
+        - table [ref=e67]:
+          - rowgroup [ref=e78]:
+            - 'row "more_vert Claim # sort filter_alt more_vert Address sort filter_alt more_vert Insureds sort filter_alt more_vert Claimants sort filter_alt more_vert Brokerage 1 sort filter_alt more_vert File Handler sort filter_alt more_vert Defence Counsel sort filter_alt more_vert Status sort filter_alt more_vert Broker of Record sort filter_alt" [ref=e79]':
+              - 'columnheader "more_vert Claim # sort filter_alt" [ref=e80] [cursor=pointer]':
+                - generic [ref=e81]:
+                  - generic [ref=e82]: more_vert
+                  - 'generic "Claim #" [ref=e83]':
+                    - generic [ref=e84]: "Claim #"
+                    - generic [ref=e85]: sort
+                  - generic [ref=e87]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert Address sort filter_alt" [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: more_vert
+                  - generic "Address" [ref=e91]:
+                    - generic [ref=e92]: Address
+                    - generic [ref=e93]: sort
+                  - generic [ref=e95]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert Insureds sort filter_alt" [ref=e96] [cursor=pointer]:
+                - generic [ref=e97]:
+                  - generic [ref=e98]: more_vert
+                  - generic "Insureds" [ref=e99]:
+                    - generic [ref=e100]: Insureds
+                    - generic [ref=e101]: sort
+                  - generic [ref=e103]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert Claimants sort filter_alt" [ref=e104] [cursor=pointer]:
+                - generic [ref=e105]:
+                  - generic [ref=e106]: more_vert
+                  - generic "Claimants" [ref=e107]:
+                    - generic [ref=e108]: Claimants
+                    - generic [ref=e109]: sort
+                  - generic [ref=e111]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert Brokerage 1 sort filter_alt" [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: more_vert
+                  - generic "Brokerage 1" [ref=e115]:
+                    - generic [ref=e116]: Brokerage 1
+                    - generic [ref=e117]: sort
+                  - generic [ref=e119]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert File Handler sort filter_alt" [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]:
+                  - generic [ref=e122]: more_vert
+                  - generic "File Handler" [ref=e123]:
+                    - generic [ref=e124]: File Handler
+                    - generic [ref=e125]: sort
+                  - generic [ref=e127]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert Defence Counsel sort filter_alt" [ref=e128] [cursor=pointer]:
+                - generic [ref=e129]:
+                  - generic [ref=e130]: more_vert
+                  - generic "Defence Counsel" [ref=e131]:
+                    - generic [ref=e132]: Defence Counsel
+                    - generic [ref=e133]: sort
+                  - generic [ref=e135]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert Status sort filter_alt" [ref=e136] [cursor=pointer]:
+                - generic [ref=e137]:
+                  - generic [ref=e138]: more_vert
+                  - generic "Status" [ref=e139]:
+                    - generic [ref=e140]: Status
+                    - generic [ref=e141]: sort
+                  - generic [ref=e143]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "more_vert Broker of Record sort filter_alt" [ref=e144] [cursor=pointer]:
+                - generic [ref=e145]:
+                  - generic [ref=e146]: more_vert
+                  - generic "Broker of Record" [ref=e147]:
+                    - generic [ref=e148]: Broker of Record
+                    - generic [ref=e149]: sort
+                  - generic [ref=e151]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+          - rowgroup
+        - generic [ref=e152]:
+          - link "first_page" [ref=e153]:
+            - /url: javascript:void(0)
+            - generic [ref=e154]: first_page
+          - link "navigate_before" [ref=e155]:
+            - /url: javascript:void(0)
+            - generic [ref=e156]: navigate_before
+          - link "1" [ref=e158] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - link "navigate_next" [ref=e159]:
+            - /url: javascript:void(0)
+            - generic [ref=e160]: navigate_next
+          - link "last_page" [ref=e161]:
+            - /url: javascript:void(0)
+            - generic [ref=e162]: last_page
+          - generic [ref=e163]:
+            - generic:
+              - textbox "25"
+            - generic [ref=e164]: "25"
+            - generic [ref=e166]: arrow_drop_down
+          - generic [ref=e167]: items per page
+  - list [ref=e169]:
+    - listitem [ref=e170]:
+      - link "Claims" [ref=e172] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e173]: Claims
+    - listitem [ref=e174]:
+      - link "Upload Invoice" [ref=e176] [cursor=pointer]:
+        - /url: upload-invoice
+        - generic [ref=e177]: Upload Invoice
+    - listitem [ref=e178]:
+      - link "Service Provider" [ref=e180] [cursor=pointer]:
+        - /url: /service-providers
+        - generic [ref=e181]: Service Provider
+    - listitem [ref=e182]:
+      - link "Brokerage" [ref=e184] [cursor=pointer]:
+        - /url: brokerage
+        - generic [ref=e185]: Brokerage
+    - listitem [ref=e186]:
+      - generic [ref=e188] [cursor=pointer]:
+        - generic [ref=e189]: Reports
+        - generic [ref=e190]: keyboard_arrow_down
+    - listitem [ref=e191]:
+      - link "Claimant Solicitor" [ref=e193] [cursor=pointer]:
+        - /url: claimant-solicitor
+        - generic [ref=e194]: Claimant Solicitor
+    - listitem [ref=e195]:
+      - generic [ref=e197] [cursor=pointer]:
+        - generic [ref=e198]: My Profile
+        - generic [ref=e199]: keyboard_arrow_down
+    - listitem [ref=e200]:
+      - generic [ref=e202] [cursor=pointer]:
+        - generic [ref=e203]: Administrator
+        - generic [ref=e204]: keyboard_arrow_down
+      - list [ref=e205]:
+        - listitem [ref=e206]:
+          - link "Application Logs" [ref=e208] [cursor=pointer]:
+            - /url: application-logs
+            - generic [ref=e209]: Application Logs
+        - listitem [ref=e210]:
+          - link "Audit Trail" [ref=e212] [cursor=pointer]:
+            - /url: audit-trail
+            - generic [ref=e213]: Audit Trail
+        - listitem [ref=e214]:
+          - link "Auto Reserves" [ref=e216] [cursor=pointer]:
+            - /url: auto-reservings
+            - generic [ref=e217]: Auto Reserves
+        - listitem [ref=e218]:
+          - link "Diary Templates" [ref=e220] [cursor=pointer]:
+            - /url: diary-templates
+            - generic [ref=e221]: Diary Templates
+        - listitem [ref=e222]:
+          - link "General Settings" [ref=e224] [cursor=pointer]:
+            - /url: general-setting
+            - generic [ref=e225]: General Settings
+        - listitem [ref=e226]:
+          - link "Parameters" [ref=e228] [cursor=pointer]:
+            - /url: param-type
+            - generic [ref=e229]: Parameters
+        - listitem [ref=e230]:
+          - link "Report Issues" [ref=e232] [cursor=pointer]:
+            - /url: issue-reporting
+            - generic [ref=e233]: Report Issues
+        - listitem [ref=e234]:
+          - link "Roles" [ref=e236] [cursor=pointer]:
+            - /url: application-roles
+            - generic [ref=e237]: Roles
+        - listitem [ref=e238]:
+          - link "System Notices" [ref=e240] [cursor=pointer]:
+            - /url: system-notices
+            - generic [ref=e241]: System Notices
+        - listitem [ref=e242]:
+          - link "Transaction Approval Limits" [ref=e244] [cursor=pointer]:
+            - /url: transaction-approval-limits
+            - generic [ref=e245]: Transaction Approval Limits
+        - listitem [ref=e246]:
+          - link "Users" [active] [ref=e248] [cursor=pointer]:
+            - /url: application-users
+            - generic [ref=e249]: Users
+    - listitem [ref=e250]:
+      - link "Registrants" [ref=e252] [cursor=pointer]:
+        - /url: registrants/false
+        - generic [ref=e253]: Registrants
+  - generic [ref=e255]: Reco CMS , Copyright Ⓒ 2025
+```
