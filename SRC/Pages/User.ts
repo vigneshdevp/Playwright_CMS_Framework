@@ -14,6 +14,7 @@ export class User extends common {
         super(page)
         this.page = page
         this.num = this.randomNumber()
+        
 
     }
 
