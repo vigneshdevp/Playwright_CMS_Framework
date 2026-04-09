@@ -35,7 +35,7 @@ test.describe("User page validation", ()=>{
                
        })    
 
-        test("Add and edit user_deactivate)", async()=>{
+        test("Add and edit user_deactivate", async()=>{
                 
                 await Userpage.navigateviacommon("Administrator", "Users")
                 await Userpage.addUser()
@@ -43,15 +43,29 @@ test.describe("User page validation", ()=>{
                
        })
 
-        test("Add and edit user_password)", async()=>{
+        test("Add and edit user_password", async()=>{
                 
+                //logic should be developed for match and mismatch passwords//
                 await Userpage.navigateviacommon("Administrator", "Users")
                 await Userpage.addUser()
                 await Userpage.editUser_password()
                
        })
 
+       test("Add and add new firm", async()=>{
+                //firm name should be paramertized in future//
+                await Userpage.navigateviacommon("Administrator", "Users")
+                await Userpage.addUser()
+                await Userpage.editUser_addfirm()
+                
+       })
 
+        test("select firm for exsisting user", async()=>{
+                //firm name should be paramertized in future//
+                await Userpage.navigateviacommon("Administrator", "Users")
+                await Userpage.editUser_selectfirm("Testcase5076@test.com","playwrightTest3960")
+
+        })
 
 
 })
