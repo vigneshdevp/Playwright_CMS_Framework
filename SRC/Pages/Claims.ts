@@ -21,7 +21,7 @@ export class claims {
      
    }
 
-      async createclaim(){
+      async createclaimforuser(){
 
       
       await this.page.locator("// label[@class= 'rz-dropdown-label rz-inputtext ']").nth(1).click()

@@ -13,7 +13,7 @@ test.describe("claim page validation", ()=>{
        test("Add user with valid details", async()=>{
                 
               await claimpage.claimPage_nav()
-              await claimpage.createclaim()
+              await claimpage.createclaimforuser()
                
        })
          
