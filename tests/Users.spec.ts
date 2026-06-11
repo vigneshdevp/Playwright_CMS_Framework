@@ -26,7 +26,7 @@ test.describe("User page validation", ()=>{
        })     
 
        
-        test("Search user", async()=>{
+        test("Search user ", async()=>{
                 
                 await Userpage.navigateviacommon("Administrator", "Users")
                 
