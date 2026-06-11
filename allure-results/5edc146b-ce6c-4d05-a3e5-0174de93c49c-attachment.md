@@ -1,0 +1,524 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - button "menu" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: menu
+      - generic [ref=e9]: RECO CMS
+      - 'textbox "Enter Exact Claim #" [ref=e10]'
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - textbox
+        - generic [ref=e13]: Most Recent Claims
+        - generic [ref=e15]: arrow_drop_down
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - generic [ref=e19] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e22]: keyboard_arrow_down
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - textbox "Search" [ref=e27]
+        - generic [ref=e28]:
+          - generic:
+            - checkbox [checked]
+          - generic [ref=e30] [cursor=pointer]: check
+        - generic [ref=e31]: Auto
+      - generic [ref=e33]:
+        - generic:
+          - textbox "0"
+        - generic [ref=e34]: Status Filter
+        - generic [ref=e36]: arrow_drop_down
+        - text: search
+        - generic [ref=e37]: close
+      - generic [ref=e39]:
+        - generic:
+          - textbox "19"
+        - generic [ref=e40]: Errors And Omissions
+        - generic [ref=e42]: arrow_drop_down
+        - generic [ref=e43]: close
+      - button "add_circle_outline New Claim" [active] [ref=e45] [cursor=pointer]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: add_circle_outline
+          - generic [ref=e48]: New Claim
+      - button "add_circle_outline New CD/CP Claim" [ref=e50] [cursor=pointer]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: add_circle_outline
+          - generic [ref=e53]: New CD/CP Claim
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - generic:
+            - checkbox
+        - generic [ref=e58]: Coverage Issue
+      - generic [ref=e60]:
+        - generic:
+          - textbox
+        - generic [ref=e61]: Claim Or Incident
+        - generic [ref=e63]: arrow_drop_down
+      - generic [ref=e65]:
+        - generic:
+          - textbox "25"
+        - generic [ref=e66]: "25"
+        - generic [ref=e68]: arrow_drop_down
+    - generic [ref=e69]:
+      - table [ref=e71]:
+        - rowgroup [ref=e82]:
+          - 'row "more_vert Claim # sort filter_alt more_vert Address sort filter_alt more_vert Insureds sort filter_alt more_vert Claimants sort filter_alt more_vert Brokerage 1 sort filter_alt more_vert File Handler sort filter_alt more_vert Defence Counsel sort filter_alt more_vert Status sort filter_alt more_vert Broker of Record sort filter_alt" [ref=e83]':
+            - 'columnheader "more_vert Claim # sort filter_alt" [ref=e84] [cursor=pointer]':
+              - generic [ref=e85]:
+                - generic [ref=e86]: more_vert
+                - 'generic "Claim #" [ref=e87]':
+                  - generic [ref=e88]: "Claim #"
+                  - generic [ref=e89]: sort
+                - generic [ref=e91]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert Address sort filter_alt" [ref=e92] [cursor=pointer]:
+              - generic [ref=e93]:
+                - generic [ref=e94]: more_vert
+                - generic "Address" [ref=e95]:
+                  - generic [ref=e96]: Address
+                  - generic [ref=e97]: sort
+                - generic [ref=e99]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert Insureds sort filter_alt" [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]:
+                - generic [ref=e102]: more_vert
+                - generic "Insureds" [ref=e103]:
+                  - generic [ref=e104]: Insureds
+                  - generic [ref=e105]: sort
+                - generic [ref=e107]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert Claimants sort filter_alt" [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]:
+                - generic [ref=e110]: more_vert
+                - generic "Claimants" [ref=e111]:
+                  - generic [ref=e112]: Claimants
+                  - generic [ref=e113]: sort
+                - generic [ref=e115]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert Brokerage 1 sort filter_alt" [ref=e116] [cursor=pointer]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: more_vert
+                - generic "Brokerage 1" [ref=e119]:
+                  - generic [ref=e120]: Brokerage 1
+                  - generic [ref=e121]: sort
+                - generic [ref=e123]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert File Handler sort filter_alt" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]:
+                - generic [ref=e126]: more_vert
+                - generic "File Handler" [ref=e127]:
+                  - generic [ref=e128]: File Handler
+                  - generic [ref=e129]: sort
+                - generic [ref=e131]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert Defence Counsel sort filter_alt" [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]:
+                - generic [ref=e134]: more_vert
+                - generic "Defence Counsel" [ref=e135]:
+                  - generic [ref=e136]: Defence Counsel
+                  - generic [ref=e137]: sort
+                - generic [ref=e139]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert Status sort filter_alt" [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]:
+                - generic [ref=e142]: more_vert
+                - generic "Status" [ref=e143]:
+                  - generic [ref=e144]: Status
+                  - generic [ref=e145]: sort
+                - generic [ref=e147]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+            - columnheader "more_vert Broker of Record sort filter_alt" [ref=e148] [cursor=pointer]:
+              - generic [ref=e149]:
+                - generic [ref=e150]: more_vert
+                - generic "Broker of Record" [ref=e151]:
+                  - generic [ref=e152]: Broker of Record
+                  - generic [ref=e153]: sort
+                - generic [ref=e155]: filter_alt
+                - text: arrow_drop_down arrow_drop_down arrow_drop_down
+        - rowgroup [ref=e156]:
+          - row "I25-01881 77, cross street Open" [ref=e157]:
+            - cell "I25-01881" [ref=e158]:
+              - generic "I25-01881" [ref=e159]
+            - cell "77, cross street" [ref=e160]:
+              - generic "77, cross street" [ref=e161]
+            - cell [ref=e162]
+            - cell [ref=e163]
+            - cell [ref=e164]
+            - cell [ref=e165]
+            - cell [ref=e166]
+            - cell "Open" [ref=e167]:
+              - generic "Open" [ref=e168]
+            - cell [ref=e169]
+          - row "I25-01880 Test Insured 1779638356851 Open" [ref=e170]:
+            - cell "I25-01880" [ref=e171]:
+              - generic "I25-01880" [ref=e172]
+            - cell [ref=e173]
+            - cell "Test Insured 1779638356851" [ref=e174]:
+              - generic "Test Insured 1779638356851" [ref=e175]
+            - cell [ref=e176]
+            - cell [ref=e177]
+            - cell [ref=e178]
+            - cell [ref=e179]
+            - cell "Open" [ref=e180]:
+              - generic "Open" [ref=e181]
+            - cell [ref=e182]
+          - row "I25-01879 Open" [ref=e183]:
+            - cell "I25-01879" [ref=e184]:
+              - generic "I25-01879" [ref=e185]
+            - cell [ref=e186]
+            - cell [ref=e187]
+            - cell [ref=e188]
+            - cell [ref=e189]
+            - cell [ref=e190]
+            - cell [ref=e191]
+            - cell "Open" [ref=e192]:
+              - generic "Open" [ref=e193]
+            - cell [ref=e194]
+          - row "I25-01878 Open" [ref=e195]:
+            - cell "I25-01878" [ref=e196]:
+              - generic "I25-01878" [ref=e197]
+            - cell [ref=e198]
+            - cell [ref=e199]
+            - cell [ref=e200]
+            - cell [ref=e201]
+            - cell [ref=e202]
+            - cell [ref=e203]
+            - cell "Open" [ref=e204]:
+              - generic "Open" [ref=e205]
+            - cell [ref=e206]
+          - row "I25-01877 Test Claimant 1779637508499 Open" [ref=e207]:
+            - cell "I25-01877" [ref=e208]:
+              - generic "I25-01877" [ref=e209]
+            - cell [ref=e210]
+            - cell [ref=e211]
+            - cell "Test Claimant 1779637508499" [ref=e212]:
+              - generic "Test Claimant 1779637508499" [ref=e213]
+            - cell [ref=e214]
+            - cell [ref=e215]
+            - cell [ref=e216]
+            - cell "Open" [ref=e217]:
+              - generic "Open" [ref=e218]
+            - cell [ref=e219]
+          - row "I25-01876 Test Claimant 1779637350100 Open" [ref=e220]:
+            - cell "I25-01876" [ref=e221]:
+              - generic "I25-01876" [ref=e222]
+            - cell [ref=e223]
+            - cell [ref=e224]
+            - cell "Test Claimant 1779637350100" [ref=e225]:
+              - generic "Test Claimant 1779637350100" [ref=e226]
+            - cell [ref=e227]
+            - cell [ref=e228]
+            - cell [ref=e229]
+            - cell "Open" [ref=e230]:
+              - generic "Open" [ref=e231]
+            - cell [ref=e232]
+          - row "I25-01875 Open" [ref=e233]:
+            - cell "I25-01875" [ref=e234]:
+              - generic "I25-01875" [ref=e235]
+            - cell [ref=e236]
+            - cell [ref=e237]
+            - cell [ref=e238]
+            - cell [ref=e239]
+            - cell [ref=e240]
+            - cell [ref=e241]
+            - cell "Open" [ref=e242]:
+              - generic "Open" [ref=e243]
+            - cell [ref=e244]
+          - row "I25-01874 Test Insured 1779637236995 Open" [ref=e245]:
+            - cell "I25-01874" [ref=e246]:
+              - generic "I25-01874" [ref=e247]
+            - cell [ref=e248]
+            - cell "Test Insured 1779637236995" [ref=e249]:
+              - generic "Test Insured 1779637236995" [ref=e250]
+            - cell [ref=e251]
+            - cell [ref=e252]
+            - cell [ref=e253]
+            - cell [ref=e254]
+            - cell "Open" [ref=e255]:
+              - generic "Open" [ref=e256]
+            - cell [ref=e257]
+          - row "I25-01873 Test Insured 1779637142870 Open" [ref=e258]:
+            - cell "I25-01873" [ref=e259]:
+              - generic "I25-01873" [ref=e260]
+            - cell [ref=e261]
+            - cell "Test Insured 1779637142870" [ref=e262]:
+              - generic "Test Insured 1779637142870" [ref=e263]
+            - cell [ref=e264]
+            - cell [ref=e265]
+            - cell [ref=e266]
+            - cell [ref=e267]
+            - cell "Open" [ref=e268]:
+              - generic "Open" [ref=e269]
+            - cell [ref=e270]
+          - row "I25-01872 Open" [ref=e271]:
+            - cell "I25-01872" [ref=e272]:
+              - generic "I25-01872" [ref=e273]
+            - cell [ref=e274]
+            - cell [ref=e275]
+            - cell [ref=e276]
+            - cell [ref=e277]
+            - cell [ref=e278]
+            - cell [ref=e279]
+            - cell "Open" [ref=e280]:
+              - generic "Open" [ref=e281]
+            - cell [ref=e282]
+          - row "I25-01871 123 Main St Open" [ref=e283]:
+            - cell "I25-01871" [ref=e284]:
+              - generic "I25-01871" [ref=e285]
+            - cell "123 Main St" [ref=e286]:
+              - generic "123 Main St" [ref=e287]
+            - cell [ref=e288]
+            - cell [ref=e289]
+            - cell [ref=e290]
+            - cell [ref=e291]
+            - cell [ref=e292]
+            - cell "Open" [ref=e293]:
+              - generic "Open" [ref=e294]
+            - cell [ref=e295]
+          - row "I25-01870 123 Main St Open" [ref=e296]:
+            - cell "I25-01870" [ref=e297]:
+              - generic "I25-01870" [ref=e298]
+            - cell "123 Main St" [ref=e299]:
+              - generic "123 Main St" [ref=e300]
+            - cell [ref=e301]
+            - cell [ref=e302]
+            - cell [ref=e303]
+            - cell [ref=e304]
+            - cell [ref=e305]
+            - cell "Open" [ref=e306]:
+              - generic "Open" [ref=e307]
+            - cell [ref=e308]
+          - row "I25-01869 Open" [ref=e309]:
+            - cell "I25-01869" [ref=e310]:
+              - generic "I25-01869" [ref=e311]
+            - cell [ref=e312]
+            - cell [ref=e313]
+            - cell [ref=e314]
+            - cell [ref=e315]
+            - cell [ref=e316]
+            - cell [ref=e317]
+            - cell "Open" [ref=e318]:
+              - generic "Open" [ref=e319]
+            - cell [ref=e320]
+          - row "I25-01868 Open" [ref=e321]:
+            - cell "I25-01868" [ref=e322]:
+              - generic "I25-01868" [ref=e323]
+            - cell [ref=e324]
+            - cell [ref=e325]
+            - cell [ref=e326]
+            - cell [ref=e327]
+            - cell [ref=e328]
+            - cell [ref=e329]
+            - cell "Open" [ref=e330]:
+              - generic "Open" [ref=e331]
+            - cell [ref=e332]
+          - row "I25-01867 Open" [ref=e333]:
+            - cell "I25-01867" [ref=e334]:
+              - generic "I25-01867" [ref=e335]
+            - cell [ref=e336]
+            - cell [ref=e337]
+            - cell [ref=e338]
+            - cell [ref=e339]
+            - cell [ref=e340]
+            - cell [ref=e341]
+            - cell "Open" [ref=e342]:
+              - generic "Open" [ref=e343]
+            - cell [ref=e344]
+          - row "I25-01866 Open" [ref=e345]:
+            - cell "I25-01866" [ref=e346]:
+              - generic "I25-01866" [ref=e347]
+            - cell [ref=e348]
+            - cell [ref=e349]
+            - cell [ref=e350]
+            - cell [ref=e351]
+            - cell [ref=e352]
+            - cell [ref=e353]
+            - cell "Open" [ref=e354]:
+              - generic "Open" [ref=e355]
+            - cell [ref=e356]
+          - row "I25-01865 Open" [ref=e357]:
+            - cell "I25-01865" [ref=e358]:
+              - generic "I25-01865" [ref=e359]
+            - cell [ref=e360]
+            - cell [ref=e361]
+            - cell [ref=e362]
+            - cell [ref=e363]
+            - cell [ref=e364]
+            - cell [ref=e365]
+            - cell "Open" [ref=e366]:
+              - generic "Open" [ref=e367]
+            - cell [ref=e368]
+          - row "I25-01864 Open" [ref=e369]:
+            - cell "I25-01864" [ref=e370]:
+              - generic "I25-01864" [ref=e371]
+            - cell [ref=e372]
+            - cell [ref=e373]
+            - cell [ref=e374]
+            - cell [ref=e375]
+            - cell [ref=e376]
+            - cell [ref=e377]
+            - cell "Open" [ref=e378]:
+              - generic "Open" [ref=e379]
+            - cell [ref=e380]
+          - row "I25-01863 Open" [ref=e381]:
+            - cell "I25-01863" [ref=e382]:
+              - generic "I25-01863" [ref=e383]
+            - cell [ref=e384]
+            - cell [ref=e385]
+            - cell [ref=e386]
+            - cell [ref=e387]
+            - cell [ref=e388]
+            - cell [ref=e389]
+            - cell "Open" [ref=e390]:
+              - generic "Open" [ref=e391]
+            - cell [ref=e392]
+          - row "I25-01862 Open" [ref=e393]:
+            - cell "I25-01862" [ref=e394]:
+              - generic "I25-01862" [ref=e395]
+            - cell [ref=e396]
+            - cell [ref=e397]
+            - cell [ref=e398]
+            - cell [ref=e399]
+            - cell [ref=e400]
+            - cell [ref=e401]
+            - cell "Open" [ref=e402]:
+              - generic "Open" [ref=e403]
+            - cell [ref=e404]
+          - row "I25-01861 Test Insured 1779298327741 Open" [ref=e405]:
+            - cell "I25-01861" [ref=e406]:
+              - generic "I25-01861" [ref=e407]
+            - cell [ref=e408]
+            - cell "Test Insured 1779298327741" [ref=e409]:
+              - generic "Test Insured 1779298327741" [ref=e410]
+            - cell [ref=e411]
+            - cell [ref=e412]
+            - cell [ref=e413]
+            - cell [ref=e414]
+            - cell "Open" [ref=e415]:
+              - generic "Open" [ref=e416]
+            - cell [ref=e417]
+          - row "I25-01860 Open" [ref=e418]:
+            - cell "I25-01860" [ref=e419]:
+              - generic "I25-01860" [ref=e420]
+            - cell [ref=e421]
+            - cell [ref=e422]
+            - cell [ref=e423]
+            - cell [ref=e424]
+            - cell [ref=e425]
+            - cell [ref=e426]
+            - cell "Open" [ref=e427]:
+              - generic "Open" [ref=e428]
+            - cell [ref=e429]
+          - row "I25-01859 Open" [ref=e430]:
+            - cell "I25-01859" [ref=e431]:
+              - generic "I25-01859" [ref=e432]
+            - cell [ref=e433]
+            - cell [ref=e434]
+            - cell [ref=e435]
+            - cell [ref=e436]
+            - cell [ref=e437]
+            - cell [ref=e438]
+            - cell "Open" [ref=e439]:
+              - generic "Open" [ref=e440]
+            - cell [ref=e441]
+          - row "I25-01858 Test Claimant 1779297677900 Open" [ref=e442]:
+            - cell "I25-01858" [ref=e443]:
+              - generic "I25-01858" [ref=e444]
+            - cell [ref=e445]
+            - cell [ref=e446]
+            - cell "Test Claimant 1779297677900" [ref=e447]:
+              - generic "Test Claimant 1779297677900" [ref=e448]
+            - cell [ref=e449]
+            - cell [ref=e450]
+            - cell [ref=e451]
+            - cell "Open" [ref=e452]:
+              - generic "Open" [ref=e453]
+            - cell [ref=e454]
+          - row "I25-01857 Test Claimant 1779297623909 Open" [ref=e455]:
+            - cell "I25-01857" [ref=e456]:
+              - generic "I25-01857" [ref=e457]
+            - cell [ref=e458]
+            - cell [ref=e459]
+            - cell "Test Claimant 1779297623909" [ref=e460]:
+              - generic "Test Claimant 1779297623909" [ref=e461]
+            - cell [ref=e462]
+            - cell [ref=e463]
+            - cell [ref=e464]
+            - cell "Open" [ref=e465]:
+              - generic "Open" [ref=e466]
+            - cell [ref=e467]
+      - generic [ref=e468]:
+        - link "first_page" [ref=e469]:
+          - /url: javascript:void(0)
+          - generic [ref=e470]: first_page
+        - link "navigate_before" [ref=e471]:
+          - /url: javascript:void(0)
+          - generic [ref=e472]: navigate_before
+        - generic [ref=e473]:
+          - link "1" [ref=e474] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - link "2" [ref=e475] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - link "3" [ref=e476] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - link "4" [ref=e477] [cursor=pointer]:
+            - /url: javascript:void(0)
+          - link "5" [ref=e478] [cursor=pointer]:
+            - /url: javascript:void(0)
+        - link "navigate_next" [ref=e479] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e480]: navigate_next
+        - link "last_page" [ref=e481] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e482]: last_page
+        - generic [ref=e483]:
+          - generic:
+            - textbox "25"
+          - generic [ref=e484]: "25"
+          - generic [ref=e486]: arrow_drop_down
+        - generic [ref=e487]: items per page
+  - list [ref=e489]:
+    - listitem [ref=e490]:
+      - link "Claims" [ref=e492] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e493]: Claims
+    - listitem [ref=e494]:
+      - link "Upload Invoice" [ref=e496] [cursor=pointer]:
+        - /url: upload-invoice
+        - generic [ref=e497]: Upload Invoice
+    - listitem [ref=e498]:
+      - link "Service Provider" [ref=e500] [cursor=pointer]:
+        - /url: /service-providers
+        - generic [ref=e501]: Service Provider
+    - listitem [ref=e502]:
+      - link "Brokerage" [ref=e504] [cursor=pointer]:
+        - /url: brokerage
+        - generic [ref=e505]: Brokerage
+    - listitem [ref=e506]:
+      - generic [ref=e508] [cursor=pointer]:
+        - generic [ref=e509]: Reports
+        - generic [ref=e510]: keyboard_arrow_down
+    - listitem [ref=e511]:
+      - link "Claimant Solicitor" [ref=e513] [cursor=pointer]:
+        - /url: claimant-solicitor
+        - generic [ref=e514]: Claimant Solicitor
+    - listitem [ref=e515]:
+      - generic [ref=e517] [cursor=pointer]:
+        - generic [ref=e518]: My Profile
+        - generic [ref=e519]: keyboard_arrow_down
+    - listitem [ref=e520]:
+      - generic [ref=e522] [cursor=pointer]:
+        - generic [ref=e523]: Administrator
+        - generic [ref=e524]: keyboard_arrow_down
+    - listitem [ref=e525]:
+      - link "Registrants" [ref=e527] [cursor=pointer]:
+        - /url: registrants/false
+        - generic [ref=e528]: Registrants
+  - generic [ref=e530]: Reco CMS , Copyright Ⓒ 2025
+```

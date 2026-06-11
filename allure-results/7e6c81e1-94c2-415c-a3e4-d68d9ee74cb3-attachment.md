@@ -1,0 +1,285 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - dialog "Edit Application User" [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: Edit Application User
+        - button "close" [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]: close
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e16]: Email
+          - textbox [active] [ref=e18]: Testcase5076@test.com
+        - generic [ref=e19]:
+          - generic [ref=e21]: Roles
+          - generic [ref=e23]:
+            - generic:
+              - textbox "Auditor"
+            - generic [ref=e24]: Auditor
+            - generic [ref=e26]: arrow_drop_down
+        - generic [ref=e27]:
+          - generic [ref=e29]: Password
+          - textbox [ref=e31]
+        - generic [ref=e32]:
+          - generic [ref=e34]: Confirm password
+          - textbox [ref=e36]
+        - group "Additional Details" [ref=e37]:
+          - generic [ref=e38]: Additional Details
+          - region [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e43]: Name
+                - textbox [ref=e45]: testing
+              - generic [ref=e46]:
+                - generic [ref=e48]: Address
+                - textbox [ref=e50]
+              - generic [ref=e51]:
+                - generic [ref=e53]: City
+                - textbox [ref=e55]
+                - generic [ref=e57]: Province
+                - generic [ref=e59]:
+                  - generic:
+                    - textbox
+                  - generic [ref=e60]: Choose Province
+                  - generic [ref=e62]: arrow_drop_down
+              - generic [ref=e63]:
+                - generic [ref=e65]: Postal Code
+                - textbox [ref=e67]
+              - generic [ref=e68]:
+                - generic [ref=e70]: Business Phone Num
+                - textbox "(000) 000-0000" [ref=e72]
+                - generic [ref=e74]: "Cell Phone #"
+                - textbox "(000) 000-0000" [ref=e76]
+              - generic [ref=e77]:
+                - generic [ref=e79]: Preferred Method of Communication
+                - generic [ref=e81]:
+                  - generic:
+                    - textbox
+                  - generic [ref=e82]: Choose Preferred Method of Communication
+                  - generic [ref=e84]: arrow_drop_down
+              - generic [ref=e85]:
+                - generic [ref=e87]: Firm
+                - generic [ref=e89]:
+                  - generic:
+                    - textbox "194"
+                  - generic [ref=e90]: playwrightTest3960
+                  - generic [ref=e92]: arrow_drop_down
+                - button "add_circle_outline New" [ref=e94] [cursor=pointer]:
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: add_circle_outline
+                    - generic [ref=e97]: New
+              - group "Flags" [ref=e98]:
+                - generic [ref=e99]: Flags
+                - region [ref=e100]:
+                  - generic [ref=e102]:
+                    - generic [ref=e104]: Prime User
+                    - generic [ref=e106]:
+                      - generic:
+                        - checkbox
+                      - generic [ref=e108] [cursor=pointer]: remove
+                    - generic [ref=e110]: File Handler
+                    - generic [ref=e112]:
+                      - generic:
+                        - checkbox
+                      - generic [ref=e114] [cursor=pointer]: remove
+                    - generic [ref=e116]: Submit Payments
+                    - generic [ref=e118]:
+                      - generic:
+                        - checkbox
+                      - generic [ref=e120] [cursor=pointer]: remove
+                    - generic [ref=e122]: View Reports
+                    - generic [ref=e124]:
+                      - generic:
+                        - checkbox
+                      - generic [ref=e126] [cursor=pointer]: remove
+                    - generic [ref=e128]: Allowed To View Confidential
+                    - generic [ref=e130]:
+                      - generic:
+                        - checkbox
+                      - generic [ref=e132] [cursor=pointer]: remove
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - button "save Save" [ref=e135] [cursor=pointer]:
+              - generic [ref=e136]:
+                - generic [ref=e137]: save
+                - generic [ref=e138]: Save
+            - button "Cancel" [ref=e139] [cursor=pointer]:
+              - generic [ref=e141]: Cancel
+          - button "person_off Deactivate User" [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: person_off
+              - generic [ref=e146]: Deactivate User
+    - generic [ref=e148]:
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - button "menu" [ref=e152] [cursor=pointer]:
+            - generic [ref=e153]: menu
+          - generic [ref=e154]: RECO CMS
+          - 'textbox "Enter Exact Claim #" [ref=e155]'
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic:
+              - textbox
+            - generic [ref=e158]: Most Recent Claims
+            - generic [ref=e160]: arrow_drop_down
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - generic [ref=e164] [cursor=pointer]:
+                - img [ref=e166]
+                - generic [ref=e167]: keyboard_arrow_down
+      - generic [ref=e169]:
+        - heading "Users" [level=1] [ref=e170]
+        - generic [ref=e172]:
+          - button "add_circle_outline Add" [ref=e173] [cursor=pointer]:
+            - generic [ref=e174]:
+              - generic [ref=e175]: add_circle_outline
+              - generic [ref=e176]: Add
+          - table [ref=e179]:
+            - rowgroup [ref=e188]:
+              - row "Name sort filter_alt Email sort filter_alt Role sort filter_alt Status sort filter_alt Email Verified sort filter_alt Account Enabled sort filter_alt" [ref=e189]:
+                - columnheader "Name sort filter_alt" [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]:
+                    - generic "Name" [ref=e192]:
+                      - generic [ref=e193]: Name
+                      - generic [ref=e194]: sort
+                    - generic [ref=e195]: filter_alt
+                    - text: arrow_drop_down arrow_drop_down arrow_drop_down
+                - columnheader "Email sort filter_alt" [ref=e196] [cursor=pointer]:
+                  - generic [ref=e197]:
+                    - generic "Email" [ref=e198]:
+                      - generic [ref=e199]: Email
+                      - generic [ref=e200]: sort
+                    - generic [ref=e201]: filter_alt
+                - columnheader "Role sort filter_alt" [ref=e202] [cursor=pointer]:
+                  - generic [ref=e203]:
+                    - generic "Role" [ref=e204]:
+                      - generic [ref=e205]: Role
+                      - generic [ref=e206]: sort
+                    - generic [ref=e207]: filter_alt
+                    - text: arrow_drop_down arrow_drop_down arrow_drop_down
+                - columnheader "Status sort filter_alt" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e209]:
+                    - generic "Status" [ref=e210]:
+                      - generic [ref=e211]: Status
+                      - generic [ref=e212]: sort
+                    - generic [ref=e213]: filter_alt
+                    - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+                - columnheader "Email Verified sort filter_alt" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]:
+                    - generic "Email Verified" [ref=e216]:
+                      - generic [ref=e217]: Email Verified
+                      - generic [ref=e218]: sort
+                    - generic [ref=e219]: filter_alt
+                    - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+                - columnheader "Account Enabled sort filter_alt" [ref=e220] [cursor=pointer]:
+                  - generic [ref=e221]:
+                    - generic "Account Enabled" [ref=e222]:
+                      - generic [ref=e223]: Account Enabled
+                      - generic [ref=e224]: sort
+                    - generic [ref=e225]: filter_alt
+                    - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+                - columnheader [ref=e226]
+            - rowgroup [ref=e228]:
+              - row "testing Testcase5076@test.com Auditor Inactive cancel check_circle close" [ref=e229]:
+                - cell "testing" [ref=e230]:
+                  - generic "testing" [ref=e231]
+                - cell "Testcase5076@test.com" [ref=e232]:
+                  - generic "Testcase5076@test.com" [ref=e233]
+                - cell "Auditor" [ref=e234]:
+                  - generic "Auditor" [ref=e235]
+                - cell "Inactive" [ref=e236]:
+                  - generic [ref=e238]: Inactive
+                - cell "cancel" [ref=e239]:
+                  - generic [ref=e241]: cancel
+                - cell "check_circle" [ref=e242]:
+                  - generic [ref=e244]: check_circle
+                - cell "close" [ref=e245]:
+                  - button "close" [ref=e247] [cursor=pointer]:
+                    - generic [ref=e249]: close
+      - list [ref=e251]:
+        - listitem [ref=e252]:
+          - link "Claims" [ref=e254] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e255]: Claims
+        - listitem [ref=e256]:
+          - link "Upload Invoice" [ref=e258] [cursor=pointer]:
+            - /url: upload-invoice
+            - generic [ref=e259]: Upload Invoice
+        - listitem [ref=e260]:
+          - link "Service Provider" [ref=e262] [cursor=pointer]:
+            - /url: /service-providers
+            - generic [ref=e263]: Service Provider
+        - listitem [ref=e264]:
+          - link "Brokerage" [ref=e266] [cursor=pointer]:
+            - /url: brokerage
+            - generic [ref=e267]: Brokerage
+        - listitem [ref=e268]:
+          - generic [ref=e270] [cursor=pointer]:
+            - generic [ref=e271]: Reports
+            - generic [ref=e272]: keyboard_arrow_down
+        - listitem [ref=e273]:
+          - link "Claimant Solicitor" [ref=e275] [cursor=pointer]:
+            - /url: claimant-solicitor
+            - generic [ref=e276]: Claimant Solicitor
+        - listitem [ref=e277]:
+          - generic [ref=e279] [cursor=pointer]:
+            - generic [ref=e280]: My Profile
+            - generic [ref=e281]: keyboard_arrow_down
+        - listitem [ref=e282]:
+          - generic [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]: Administrator
+            - generic [ref=e286]: keyboard_arrow_down
+          - list [ref=e287]:
+            - listitem [ref=e288]:
+              - link "Application Logs" [ref=e290] [cursor=pointer]:
+                - /url: application-logs
+                - generic [ref=e291]: Application Logs
+            - listitem [ref=e292]:
+              - link "Audit Trail" [ref=e294] [cursor=pointer]:
+                - /url: audit-trail
+                - generic [ref=e295]: Audit Trail
+            - listitem [ref=e296]:
+              - link "Auto Reserves" [ref=e298] [cursor=pointer]:
+                - /url: auto-reservings
+                - generic [ref=e299]: Auto Reserves
+            - listitem [ref=e300]:
+              - link "Diary Templates" [ref=e302] [cursor=pointer]:
+                - /url: diary-templates
+                - generic [ref=e303]: Diary Templates
+            - listitem [ref=e304]:
+              - link "General Settings" [ref=e306] [cursor=pointer]:
+                - /url: general-setting
+                - generic [ref=e307]: General Settings
+            - listitem [ref=e308]:
+              - link "Parameters" [ref=e310] [cursor=pointer]:
+                - /url: param-type
+                - generic [ref=e311]: Parameters
+            - listitem [ref=e312]:
+              - link "Report Issues" [ref=e314] [cursor=pointer]:
+                - /url: issue-reporting
+                - generic [ref=e315]: Report Issues
+            - listitem [ref=e316]:
+              - link "Roles" [ref=e318] [cursor=pointer]:
+                - /url: application-roles
+                - generic [ref=e319]: Roles
+            - listitem [ref=e320]:
+              - link "System Notices" [ref=e322] [cursor=pointer]:
+                - /url: system-notices
+                - generic [ref=e323]: System Notices
+            - listitem [ref=e324]:
+              - link "Transaction Approval Limits" [ref=e326] [cursor=pointer]:
+                - /url: transaction-approval-limits
+                - generic [ref=e327]: Transaction Approval Limits
+            - listitem [ref=e328]:
+              - link "Users" [ref=e330] [cursor=pointer]:
+                - /url: application-users
+                - generic [ref=e331]: Users
+        - listitem [ref=e332]:
+          - link "Registrants" [ref=e334] [cursor=pointer]:
+            - /url: registrants/false
+            - generic [ref=e335]: Registrants
+      - generic [ref=e337]: Reco CMS , Copyright Ⓒ 2025
+  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+```

@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - button "menu" [ref=e7] [cursor=pointer]:
+          - generic [ref=e8]: menu
+        - generic [ref=e9]: RECO CMS
+        - 'textbox "Enter Exact Claim #" [ref=e10]'
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic:
+            - textbox
+          - generic [ref=e13]: Most Recent Claims
+          - generic [ref=e15]: arrow_drop_down
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - generic [ref=e19] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e22]: keyboard_arrow_down
+    - generic [ref=e28]:
+      - tablist [ref=e29]:
+        - listitem [ref=e30]:
+          - link "1 New Claim" [ref=e31] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e32]: "1"
+            - generic [ref=e33]: New Claim
+        - listitem [ref=e34]:
+          - link "2 Insured(s)" [ref=e35] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e36]: "2"
+            - generic [ref=e37]: Insured(s)
+        - listitem [ref=e38]:
+          - link "3 Claimant" [ref=e39] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e40]: "3"
+            - generic [ref=e41]: Claimant
+        - listitem [ref=e42]:
+          - link "4 Trade" [ref=e43] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e44]: "4"
+            - generic [ref=e45]: Trade
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e49]: Select Program
+          - generic [ref=e51]:
+            - generic:
+              - textbox "19"
+            - generic [ref=e52]: Errors And Omissions
+            - generic [ref=e54]: arrow_drop_down
+        - generic [ref=e57]:
+          - generic [ref=e59]: Select Policy Year
+          - generic [ref=e61]:
+            - generic:
+              - textbox "834254"
+            - generic [ref=e62]: 2026-27
+            - generic [ref=e64]: arrow_drop_down
+          - generic [ref=e66]: Report Date
+          - generic [ref=e69]:
+            - textbox [ref=e70]: 5/26/2026
+            - button [ref=e71] [cursor=pointer]:
+              - generic [ref=e72]: calendar_today
+        - generic [ref=e73]:
+          - generic [ref=e75]: New Claim Number
+          - textbox [ref=e77]: I26-00001
+          - generic [ref=e79]: Claim Initiation
+          - generic [active] [ref=e81]:
+            - generic:
+              - textbox
+            - generic [ref=e82]: Choose Initial Trigger
+            - generic [ref=e84]: arrow_drop_down
+      - generic [ref=e85]:
+        - link "navigate_before Previous" [ref=e86] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e87]: navigate_before
+          - text: Previous
+        - link "Next navigate_next" [ref=e88] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - text: Next
+          - generic [ref=e89]: navigate_next
+    - list [ref=e91]:
+      - listitem [ref=e92]:
+        - link "Claims" [ref=e94] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e95]: Claims
+      - listitem [ref=e96]:
+        - link "Upload Invoice" [ref=e98] [cursor=pointer]:
+          - /url: upload-invoice
+          - generic [ref=e99]: Upload Invoice
+      - listitem [ref=e100]:
+        - link "Service Provider" [ref=e102] [cursor=pointer]:
+          - /url: /service-providers
+          - generic [ref=e103]: Service Provider
+      - listitem [ref=e104]:
+        - link "Brokerage" [ref=e106] [cursor=pointer]:
+          - /url: brokerage
+          - generic [ref=e107]: Brokerage
+      - listitem [ref=e108]:
+        - generic [ref=e110] [cursor=pointer]:
+          - generic [ref=e111]: Reports
+          - generic [ref=e112]: keyboard_arrow_down
+      - listitem [ref=e113]:
+        - link "Claimant Solicitor" [ref=e115] [cursor=pointer]:
+          - /url: claimant-solicitor
+          - generic [ref=e116]: Claimant Solicitor
+      - listitem [ref=e117]:
+        - generic [ref=e119] [cursor=pointer]:
+          - generic [ref=e120]: My Profile
+          - generic [ref=e121]: keyboard_arrow_down
+      - listitem [ref=e122]:
+        - generic [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]: Administrator
+          - generic [ref=e126]: keyboard_arrow_down
+      - listitem [ref=e127]:
+        - link "Registrants" [ref=e129] [cursor=pointer]:
+          - /url: registrants/false
+          - generic [ref=e130]: Registrants
+    - generic [ref=e132]: Reco CMS , Copyright Ⓒ 2025
+  - text: chevron_left chevron_right arrow_drop_down arrow_drop_down search
+```
