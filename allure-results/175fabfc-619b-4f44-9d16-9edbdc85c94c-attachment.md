@@ -1,0 +1,348 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - button "menu" [ref=e7] [cursor=pointer]:
+        - generic [ref=e8]: menu
+      - generic [ref=e9]: RECO CMS
+      - 'textbox "Enter Exact Claim #" [ref=e10]'
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - generic:
+          - textbox
+        - generic [ref=e13]: Most Recent Claims
+        - generic [ref=e15]: arrow_drop_down
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - generic [ref=e19] [cursor=pointer]:
+            - img [ref=e21]
+            - generic [ref=e22]: keyboard_arrow_down
+  - generic [ref=e24]:
+    - heading "Users" [level=1] [ref=e25]
+    - generic [ref=e27]:
+      - button "add_circle_outline Add" [ref=e28] [cursor=pointer]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: add_circle_outline
+          - generic [ref=e31]: Add
+      - generic [ref=e32]:
+        - table [ref=e34]:
+          - rowgroup [ref=e43]:
+            - row "Name sort filter_alt Email sort filter_alt Role sort filter_alt Status sort filter_alt Email Verified sort filter_alt Account Enabled sort filter_alt" [ref=e44]:
+              - columnheader "Name sort filter_alt" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - generic "Name" [ref=e47]:
+                    - generic [ref=e48]: Name
+                    - generic [ref=e49]: sort
+                  - generic [ref=e50]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "Email sort filter_alt" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]:
+                  - generic "Email" [ref=e53]:
+                    - generic [ref=e54]: Email
+                    - generic [ref=e55]: sort
+                  - generic [ref=e56]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "Role sort filter_alt" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]:
+                  - generic "Role" [ref=e59]:
+                    - generic [ref=e60]: Role
+                    - generic [ref=e61]: sort
+                  - generic [ref=e62]: filter_alt
+                  - text: arrow_drop_down arrow_drop_down arrow_drop_down
+              - columnheader "Status sort filter_alt" [ref=e63] [cursor=pointer]:
+                - generic [ref=e64]:
+                  - generic "Status" [ref=e65]:
+                    - generic [ref=e66]: Status
+                    - generic [ref=e67]: sort
+                  - generic [ref=e68]: filter_alt
+                  - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+              - columnheader "Email Verified sort filter_alt" [ref=e69] [cursor=pointer]:
+                - generic [ref=e70]:
+                  - generic "Email Verified" [ref=e71]:
+                    - generic [ref=e72]: Email Verified
+                    - generic [ref=e73]: sort
+                  - generic [ref=e74]: filter_alt
+                  - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+              - columnheader "Account Enabled sort filter_alt" [ref=e75] [cursor=pointer]:
+                - generic [ref=e76]:
+                  - generic "Account Enabled" [ref=e77]:
+                    - generic [ref=e78]: Account Enabled
+                    - generic [ref=e79]: sort
+                  - generic [ref=e80]: filter_alt
+                  - text: arrow_drop_down remove arrow_drop_down arrow_drop_down remove
+              - columnheader [ref=e81]
+          - rowgroup [ref=e83]:
+            - row "Test User testuser_80171542@mail.com Auditor Inactive cancel cancel close" [ref=e84]:
+              - cell "Test User" [ref=e85]:
+                - generic "Test User" [ref=e86]
+              - cell "testuser_80171542@mail.com" [ref=e87]:
+                - generic "testuser_80171542@mail.com" [ref=e88]
+              - cell "Auditor" [ref=e89]:
+                - generic "Auditor" [ref=e90]
+              - cell "Inactive" [ref=e91]:
+                - generic [ref=e93]: Inactive
+              - cell "cancel" [ref=e94]:
+                - generic [ref=e96]: cancel
+              - cell "cancel" [ref=e97]:
+                - generic [ref=e99]: cancel
+              - cell "close" [ref=e100]:
+                - button "close" [ref=e102] [cursor=pointer]:
+                  - generic [ref=e104]: close
+            - row "asdasd testuser_38382170 Auditor Inactive cancel cancel close" [ref=e105]:
+              - cell "asdasd" [ref=e106]:
+                - generic "asdasd" [ref=e107]
+              - cell "testuser_38382170" [ref=e108]:
+                - generic "testuser_38382170" [ref=e109]
+              - cell "Auditor" [ref=e110]:
+                - generic "Auditor" [ref=e111]
+              - cell "Inactive" [ref=e112]:
+                - generic [ref=e114]: Inactive
+              - cell "cancel" [ref=e115]:
+                - generic [ref=e117]: cancel
+              - cell "cancel" [ref=e118]:
+                - generic [ref=e120]: cancel
+              - cell "close" [ref=e121]:
+                - button "close" [ref=e123] [cursor=pointer]:
+                  - generic [ref=e125]: close
+            - row "Test User testuser_44408348 testuser_44408348@mail.com Auditor Inactive cancel cancel close" [ref=e126]:
+              - cell "Test User testuser_44408348" [ref=e127]:
+                - generic "Test User testuser_44408348" [ref=e128]
+              - cell "testuser_44408348@mail.com" [ref=e129]:
+                - generic "testuser_44408348@mail.com" [ref=e130]
+              - cell "Auditor" [ref=e131]:
+                - generic "Auditor" [ref=e132]
+              - cell "Inactive" [ref=e133]:
+                - generic [ref=e135]: Inactive
+              - cell "cancel" [ref=e136]:
+                - generic [ref=e138]: cancel
+              - cell "cancel" [ref=e139]:
+                - generic [ref=e141]: cancel
+              - cell "close" [ref=e142]:
+                - button "close" [ref=e144] [cursor=pointer]:
+                  - generic [ref=e146]: close
+            - row "defense counsell info+defensecounsel@xlgclaims.com Defense Counsel Inactive check_circle cancel close" [ref=e147]:
+              - cell "defense counsell" [ref=e148]:
+                - generic "defense counsell" [ref=e149]
+              - cell "info+defensecounsel@xlgclaims.com" [ref=e150]:
+                - generic "info+defensecounsel@xlgclaims.com" [ref=e151]
+              - cell "Defense Counsel" [ref=e152]:
+                - generic "Defense Counsel" [ref=e153]
+              - cell "Inactive" [ref=e154]:
+                - generic [ref=e156]: Inactive
+              - cell "check_circle" [ref=e157]:
+                - generic [ref=e159]: check_circle
+              - cell "cancel" [ref=e160]:
+                - generic [ref=e162]: cancel
+              - cell "close" [ref=e163]:
+                - button "close" [ref=e165] [cursor=pointer]:
+                  - generic [ref=e167]: close
+            - row "Test User testuser_35713125@mail.com Claims Admin Inactive cancel check_circle close" [ref=e168]:
+              - cell "Test User" [ref=e169]:
+                - generic "Test User" [ref=e170]
+              - cell "testuser_35713125@mail.com" [ref=e171]:
+                - generic "testuser_35713125@mail.com" [ref=e172]
+              - cell "Claims Admin" [ref=e173]:
+                - generic "Claims Admin" [ref=e174]
+              - cell "Inactive" [ref=e175]:
+                - generic [ref=e177]: Inactive
+              - cell "cancel" [ref=e178]:
+                - generic [ref=e180]: cancel
+              - cell "check_circle" [ref=e181]:
+                - generic [ref=e183]: check_circle
+              - cell "close" [ref=e184]:
+                - button "close" [ref=e186] [cursor=pointer]:
+                  - generic [ref=e188]: close
+            - row "Test User testuser_1820060 testuser_1820060@mail.com Auditor Inactive cancel cancel close" [ref=e189]:
+              - cell "Test User testuser_1820060" [ref=e190]:
+                - generic "Test User testuser_1820060" [ref=e191]
+              - cell "testuser_1820060@mail.com" [ref=e192]:
+                - generic "testuser_1820060@mail.com" [ref=e193]
+              - cell "Auditor" [ref=e194]:
+                - generic "Auditor" [ref=e195]
+              - cell "Inactive" [ref=e196]:
+                - generic [ref=e198]: Inactive
+              - cell "cancel" [ref=e199]:
+                - generic [ref=e201]: cancel
+              - cell "cancel" [ref=e202]:
+                - generic [ref=e204]: cancel
+              - cell "close" [ref=e205]:
+                - button "close" [ref=e207] [cursor=pointer]:
+                  - generic [ref=e209]: close
+            - row "Test User testuser_51004489@mail.com Auditor Inactive cancel cancel close" [ref=e210]:
+              - cell "Test User" [ref=e211]:
+                - generic "Test User" [ref=e212]
+              - cell "testuser_51004489@mail.com" [ref=e213]:
+                - generic "testuser_51004489@mail.com" [ref=e214]
+              - cell "Auditor" [ref=e215]:
+                - generic "Auditor" [ref=e216]
+              - cell "Inactive" [ref=e217]:
+                - generic [ref=e219]: Inactive
+              - cell "cancel" [ref=e220]:
+                - generic [ref=e222]: cancel
+              - cell "cancel" [ref=e223]:
+                - generic [ref=e225]: cancel
+              - cell "close" [ref=e226]:
+                - button "close" [ref=e228] [cursor=pointer]:
+                  - generic [ref=e230]: close
+            - row "Test6829 Test6829@gmail.com Test_532610 Inactive cancel cancel close" [ref=e231]:
+              - cell "Test6829" [ref=e232]:
+                - generic "Test6829" [ref=e233]
+              - cell "Test6829@gmail.com" [ref=e234]:
+                - generic "Test6829@gmail.com" [ref=e235]
+              - cell "Test_532610" [ref=e236]:
+                - generic "Test_532610" [ref=e237]
+              - cell "Inactive" [ref=e238]:
+                - generic [ref=e240]: Inactive
+              - cell "cancel" [ref=e241]:
+                - generic [ref=e243]: cancel
+              - cell "cancel" [ref=e244]:
+                - generic [ref=e246]: cancel
+              - cell "close" [ref=e247]:
+                - button "close" [ref=e249] [cursor=pointer]:
+                  - generic [ref=e251]: close
+            - row "Test User testuser_48328026@mail.com Claims Admin Inactive cancel check_circle close" [ref=e252]:
+              - cell "Test User" [ref=e253]:
+                - generic "Test User" [ref=e254]
+              - cell "testuser_48328026@mail.com" [ref=e255]:
+                - generic "testuser_48328026@mail.com" [ref=e256]
+              - cell "Claims Admin" [ref=e257]:
+                - generic "Claims Admin" [ref=e258]
+              - cell "Inactive" [ref=e259]:
+                - generic [ref=e261]: Inactive
+              - cell "cancel" [ref=e262]:
+                - generic [ref=e264]: cancel
+              - cell "check_circle" [ref=e265]:
+                - generic [ref=e267]: check_circle
+              - cell "close" [ref=e268]:
+                - button "close" [ref=e270] [cursor=pointer]:
+                  - generic [ref=e272]: close
+            - row "Test User testuser_60569925@mail.com Claims Admin Inactive cancel check_circle close" [ref=e273]:
+              - cell "Test User" [ref=e274]:
+                - generic "Test User" [ref=e275]
+              - cell "testuser_60569925@mail.com" [ref=e276]:
+                - generic "testuser_60569925@mail.com" [ref=e277]
+              - cell "Claims Admin" [ref=e278]:
+                - generic "Claims Admin" [ref=e279]
+              - cell "Inactive" [ref=e280]:
+                - generic [ref=e282]: Inactive
+              - cell "cancel" [ref=e283]:
+                - generic [ref=e285]: cancel
+              - cell "check_circle" [ref=e286]:
+                - generic [ref=e288]: check_circle
+              - cell "close" [ref=e289]:
+                - button "close" [ref=e291] [cursor=pointer]:
+                  - generic [ref=e293]: close
+        - generic [ref=e294]:
+          - link "first_page" [ref=e295]:
+            - /url: javascript:void(0)
+            - generic [ref=e296]: first_page
+          - link "navigate_before" [ref=e297]:
+            - /url: javascript:void(0)
+            - generic [ref=e298]: navigate_before
+          - generic [ref=e299]:
+            - link "1" [ref=e300] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "2" [ref=e301] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "3" [ref=e302] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "4" [ref=e303] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "5" [ref=e304] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - link "navigate_next" [ref=e305] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e306]: navigate_next
+          - link "last_page" [ref=e307] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e308]: last_page
+  - list [ref=e310]:
+    - listitem [ref=e311]:
+      - link "Claims" [ref=e313] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e314]: Claims
+    - listitem [ref=e315]:
+      - link "Upload Invoice" [ref=e317] [cursor=pointer]:
+        - /url: upload-invoice
+        - generic [ref=e318]: Upload Invoice
+    - listitem [ref=e319]:
+      - link "Service Provider" [ref=e321] [cursor=pointer]:
+        - /url: /service-providers
+        - generic [ref=e322]: Service Provider
+    - listitem [ref=e323]:
+      - link "Brokerage" [ref=e325] [cursor=pointer]:
+        - /url: brokerage
+        - generic [ref=e326]: Brokerage
+    - listitem [ref=e327]:
+      - generic [ref=e329] [cursor=pointer]:
+        - generic [ref=e330]: Reports
+        - generic [ref=e331]: keyboard_arrow_down
+    - listitem [ref=e332]:
+      - link "Claimant Solicitor" [ref=e334] [cursor=pointer]:
+        - /url: claimant-solicitor
+        - generic [ref=e335]: Claimant Solicitor
+    - listitem [ref=e336]:
+      - generic [ref=e338] [cursor=pointer]:
+        - generic [ref=e339]: My Profile
+        - generic [ref=e340]: keyboard_arrow_down
+    - listitem [ref=e341]:
+      - generic [ref=e343] [cursor=pointer]:
+        - generic [ref=e344]: Administrator
+        - generic [ref=e345]: keyboard_arrow_down
+      - list [ref=e346]:
+        - listitem [ref=e347]:
+          - link "Application Logs" [ref=e349] [cursor=pointer]:
+            - /url: application-logs
+            - generic [ref=e350]: Application Logs
+        - listitem [ref=e351]:
+          - link "Audit Trail" [ref=e353] [cursor=pointer]:
+            - /url: audit-trail
+            - generic [ref=e354]: Audit Trail
+        - listitem [ref=e355]:
+          - link "Authorization Policies" [ref=e357] [cursor=pointer]:
+            - /url: authorization-policies
+            - generic [ref=e358]: Authorization Policies
+        - listitem [ref=e359]:
+          - link "Auto Reserves" [ref=e361] [cursor=pointer]:
+            - /url: auto-reservings
+            - generic [ref=e362]: Auto Reserves
+        - listitem [ref=e363]:
+          - link "Diary Templates" [ref=e365] [cursor=pointer]:
+            - /url: diary-templates
+            - generic [ref=e366]: Diary Templates
+        - listitem [ref=e367]:
+          - link "General Settings" [ref=e369] [cursor=pointer]:
+            - /url: general-setting
+            - generic [ref=e370]: General Settings
+        - listitem [ref=e371]:
+          - link "Parameters" [ref=e373] [cursor=pointer]:
+            - /url: param-type
+            - generic [ref=e374]: Parameters
+        - listitem [ref=e375]:
+          - link "Report Issues" [ref=e377] [cursor=pointer]:
+            - /url: issue-reporting
+            - generic [ref=e378]: Report Issues
+        - listitem [ref=e379]:
+          - link "Roles" [ref=e381] [cursor=pointer]:
+            - /url: application-roles
+            - generic [ref=e382]: Roles
+        - listitem [ref=e383]:
+          - link "System Notices" [ref=e385] [cursor=pointer]:
+            - /url: system-notices
+            - generic [ref=e386]: System Notices
+        - listitem [ref=e387]:
+          - link "Transaction Approval Limits" [ref=e389] [cursor=pointer]:
+            - /url: transaction-approval-limits
+            - generic [ref=e390]: Transaction Approval Limits
+        - listitem [ref=e391]:
+          - link "Users" [ref=e393] [cursor=pointer]:
+            - /url: application-users
+            - generic [ref=e394]: Users
+    - listitem [ref=e395]:
+      - link "Registrants" [ref=e397] [cursor=pointer]:
+        - /url: registrants/false
+        - generic [ref=e398]: Registrants
+  - generic [ref=e400]: Reco CMS , Copyright Ⓒ 2025
+```

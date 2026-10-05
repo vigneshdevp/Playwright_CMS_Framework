@@ -6,7 +6,7 @@ import { common } from "./Common"
 
 export class role extends common {
      page : Page
-     num : number = 0
+     num1 : number = 0
     
 
 
@@ -32,8 +32,8 @@ export class role extends common {
 
      
      async addnewrole(){
-         this.num  = this.randomNumber()
-         await this.page.locator("// input [@name='Name']").fill(`test_${this.num}`)
+         this.num1  = this.randomNumber()
+         await this.page.locator("// input [@name='Name']").fill(`test_${this.num1}`)
          await this.page.getByRole('button', { name: 'save Save' }).click()
          
          
@@ -49,7 +49,7 @@ export class role extends common {
         await expect(this.roleAddHeading).toBeVisible()
         
         // fill details//
-        await this.page.locator("// input [@name='Name']").fill(`test_${this.num}`)
+        await this.page.locator("// input [@name='Name']").fill(`test_${this.num1}`)
         await this.page.getByRole('button', { name: 'save Save' }).click()
         await this.page.getByText("Cannot create role").waitFor({state: 'visible', timeout: 30000})
         await expect(this.page.getByText("Cannot create role")).toBeVisible()
