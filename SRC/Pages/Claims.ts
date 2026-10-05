@@ -27,7 +27,7 @@ export class claims {
       await this.page.locator("// label[@class= 'rz-dropdown-label rz-inputtext ']").nth(1).click()
       await this.page.getByText("2026-27").click()
       await this.page.locator("// span[@class= 'rz-button-icon-left rzi rzi-calendar']").click()
-      await this.page.getByText("26", { exact: true }).nth(1).click()
+      await this.page.getByText("17", { exact: true }).click()
       await this.page.locator("// div[@class= 'rz-dropdown-trigger  rz-corner-right']").nth(3).click()
       await expect(this.page.getByText('Application', { exact: true })).toBeVisible({timeout:250000})
       await this.page.locator("// span", { hasText: 'Application' }).nth(1).click()
@@ -43,3 +43,5 @@ export class claims {
           
 }
 }
+
+

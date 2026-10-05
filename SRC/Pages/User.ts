@@ -30,6 +30,7 @@ export class User extends common {
         //fill details//
         await this.page.locator("//input[@name='Email']").fill(`Testcase${this.num}@test.com`) 
         await this.page.locator('//label[@class="rz-dropdown-label rz-inputtext "]').nth(0).click()
+        await this.page.locator("input[name = 'UserFullName']").fill(`Testcase${this.num}`)
         await this.page.getByRole('option', { name: "Auditor" }).click()
         await this.page.waitForTimeout(5000)
         await this.page.locator("//input[@name='Password']").fill("Hello@123",{timeout:100000}) 
@@ -98,7 +99,7 @@ export class User extends common {
     }
 }
         async editUser_deactivate(){
-            await this.page.getByLabel('Add Application User').getByRole('button', { name: 'close' }).click()
+            //await this.page.getByLabel('Add Application User').getByRole('button', { name: 'close' }).click()
             //await this.page.waitForTimeout(10000)
             await this.page.locator("// i [@class='rzi rz-grid-filter-icon ']").nth(1).click({timeout:250000})
             await this.page.locator("// span [@class='rz-dropdown-trigger-icon  rzi rzi-chevron-down']").nth(16).click({timeout:250000})
@@ -116,7 +117,7 @@ export class User extends common {
            }
 
         async editUser_password(){
-            await this.page.getByLabel('Add Application User').getByRole('button', { name: 'close' }).click()
+            //await this.page.getByLabel('Add Application User').getByRole('button', { name: 'close' }).click()
             await this.page.locator("// i [@class='rzi rz-grid-filter-icon ']").nth(1).click({timeout:250000})
             await this.page.locator("// span [@class='rz-dropdown-trigger-icon  rzi rzi-chevron-down']").nth(16).click({timeout:250000})
             await this.page.getByRole("option",{name:"Equals",exact:true}).click({timeout:300000})
@@ -137,7 +138,7 @@ export class User extends common {
         }   
 
         async editUser_addfirm(){
-            await this.page.getByLabel('Add Application User').getByRole('button', { name: 'close' }).click()
+            //await this.page.getByLabel('Add Application User').getByRole('button', { name: 'close' }).click()
             await this.page.locator("// i [@class='rzi rz-grid-filter-icon ']").nth(1).click({timeout:250000})
             await this.page.locator("// span [@class='rz-dropdown-trigger-icon  rzi rzi-chevron-down']").nth(16).click({timeout:250000})
             await this.page.getByRole("option",{name:"Equals",exact:true}).click({timeout:300000})
